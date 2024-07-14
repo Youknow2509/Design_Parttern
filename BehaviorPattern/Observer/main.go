@@ -3,7 +3,7 @@
 	@contact: lytranvinh.work@gmail.com
 	@content: Observer Pattern
 */
-package behaviorpattern_observer
+package main
 
 func main()  {
 	
