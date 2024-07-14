@@ -1,7 +1,7 @@
 /**
 @author: Ly Tran Vinh
 @contact: lytranvinh.work@gmail.com
-@content: Abstract Singleton Pattern
+@content: Singleton Pattern
 */
 
 package main
