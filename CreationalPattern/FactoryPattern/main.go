@@ -157,33 +157,61 @@ func (s *WallNut) PlantPrice() int {
 /** 
  * Factory method
  */
-func CreatePlant(plantType TypePlant) Plant {
+func CreatePlant(plantType TypePlant) (Plant, error) {
 	switch plantType {
 	case SUNFLOWER:
-		return NewSunFlower()
+		return NewSunFlower(), nil
 	case PEASHOOTER:
-		return NewPeaShooter()
+		return NewPeaShooter(), nil
 	case WALLNUT:
-		return NewWallNut()
+		return NewWallNut(), nil
 	// TODO add more plant type ...
 	default:
-		return nil
+		return nil, fmt.Errorf("Invalid plant type")
 	}
 }
 
 func main() {
 
-	sunFlower := CreatePlant(SUNFLOWER)
-	fmt.Println("Plant Name: ", sunFlower.PlantName())
-	fmt.Println("Plant Price: ", sunFlower.PlantPrice())
+	plantType := SUNFLOWER
+	plant, err := CreatePlant(plantType)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
 
-	peaShooter := CreatePlant(PEASHOOTER)
-	fmt.Println("Plant Name: ", peaShooter.PlantName())
-	fmt.Println("Plant Price: ", peaShooter.PlantPrice())
+	fmt.Println("Plant Name: ", plant.PlantName())
+	fmt.Println("Plant Price: ", plant.PlantPrice())
 
-	wallNut := CreatePlant(WALLNUT)
-	fmt.Println("Plant Name: ", wallNut.PlantName())
-	fmt.Println("Plant Price: ", wallNut.PlantPrice())
+	plantType = PEASHOOTER
+	plant, err = CreatePlant(plantType)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
 
-	// TODO add more plant type ...
+	fmt.Println("Plant Name: ", plant.PlantName())
+	fmt.Println("Plant Price: ", plant.PlantPrice())
+
+	plantType = WALLNUT
+	plant, err = CreatePlant(plantType)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	fmt.Println("Plant Name: ", plant.PlantName())
+	fmt.Println("Plant Price: ", plant.PlantPrice())
+
+	// TODO add more plant type ...	
+
+	// Example error case:
+	plantType = TypePlant(100)
+	plant, err = CreatePlant(plantType)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Println("Plant Name: ", plant.PlantName())
+	fmt.Println("Plant Price: ", plant.PlantPrice())
 }
