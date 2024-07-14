@@ -154,21 +154,36 @@ func (s *WallNut) PlantPrice() int {
 	return s.Price
 }
 
+/** 
+ * Factory method
+ */
+func CreatePlant(plantType TypePlant) Plant {
+	switch plantType {
+	case SUNFLOWER:
+		return NewSunFlower()
+	case PEASHOOTER:
+		return NewPeaShooter()
+	case WALLNUT:
+		return NewWallNut()
+	// TODO add more plant type ...
+	default:
+		return nil
+	}
+}
+
 func main() {
 
-	// Create SunFlower
-	sunFlower := NewSunFlower("SunFlower", 550)
-	fmt.Println("SunFlower: ", sunFlower.PlantName(), " - ", sunFlower.PlantPrice())
+	sunFlower := CreatePlant(SUNFLOWER)
+	fmt.Println("Plant Name: ", sunFlower.PlantName())
+	fmt.Println("Plant Price: ", sunFlower.PlantPrice())
 
-	// Create PeaShooter
-	peaShooter := NewPeaShooter("PeaShooter", 100)
-	fmt.Println("PeaShooter: ", peaShooter.PlantName(), " - ", peaShooter.PlantPrice())
+	peaShooter := CreatePlant(PEASHOOTER)
+	fmt.Println("Plant Name: ", peaShooter.PlantName())
+	fmt.Println("Plant Price: ", peaShooter.PlantPrice())
 
-	// Create WallNut
-	wallNut := NewWallNut("WallNut", 50)
-	fmt.Println("WallNut: ", wallNut.PlantName(), " - ", wallNut.PlantPrice())
+	wallNut := CreatePlant(WALLNUT)
+	fmt.Println("Plant Name: ", wallNut.PlantName())
+	fmt.Println("Plant Price: ", wallNut.PlantPrice())
 
-	sunFlower2 := NewSunFlower()
-	fmt.Println("SunFlower: ", sunFlower2.PlantName(), " - ", sunFlower2.PlantPrice())
-	
+	// TODO add more plant type ...
 }
