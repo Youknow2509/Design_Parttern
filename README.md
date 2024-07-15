@@ -38,7 +38,11 @@
             OK
             </a>
         </td>  
-        <td>x</td>  
+        <td>
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/FactoryPattern/Python/main.py">
+            OK
+            </a>
+        </td>  
         <td>
             <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/FactoryPattern/Java/main.java">
             OK
