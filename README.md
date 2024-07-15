@@ -29,7 +29,7 @@
         </th>
         <td>Factory Pattern</td>
         <td>
-            <a href="https://github.com/Youknow2509/DesignParttern/blob/golang/CreationalPattern/FactoryPattern/main.go">
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/FactoryPattern/Golang/main.go">
             OK
             </a>
         </td>  
@@ -39,7 +39,7 @@
     <tr>
         <td>Abstract Factory Pattern</td>
         <td>
-            <a href="https://github.com/Youknow2509/DesignParttern/blob/golang/CreationalPattern/AbstractFactoryPattern/main.go">
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/AbstractFactoryPattern/Golang/main.go">
             OK
             </a>
         </td>  
@@ -49,7 +49,7 @@
     <tr>
         <td>Singleton Pattern</td>
         <td>
-            <a href="https://github.com/Youknow2509/DesignParttern/blob/golang/CreationalPattern/SingletonPattern/main.go">
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/SingletonPattern/Golang/main.go">
             OK
             </a>
         </td>  
@@ -65,7 +65,7 @@
     <tr>
         <td>Prototype Pattern</td>
         <td>
-            <a href="https://github.com/Youknow2509/DesignParttern/blob/golang/CreationalPattern/PrototypePattern/main.go">
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/PrototypePattern/Golang/main.go">
             OK
             </a>
         </td>  
