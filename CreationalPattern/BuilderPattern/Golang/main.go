@@ -8,6 +8,7 @@ package main
 
 import (
 	"strconv"
+	"fmt"
 )
 
 /**
@@ -172,13 +173,13 @@ func main() {
 	// Use Builder Pattern
 	builder := &SunflowerBuilder{}
 	plant := builder.SetName("Sunflower 1").SetHp(100).SetPrice(50).SetSun(50).SetTimeOutSun(10).SetSpeedSun(1).Build()
-	println(plant.ToString())
+	fmt.Println(plant.ToString())
 
 	builder2 := &SunflowerBuilder{}
 	plant2 := builder2.SetName("Sunflower 2").SetHp(100).SetPrice(55).SetTimeOutSun(5).Build()
-	println(plant2.ToString())
+	fmt.Println(plant2.ToString())
 
 	builder3 := &SunflowerBuilder{}
 	plant3 := builder3.Build()
-	println(plant3.ToString())
+	fmt.Println(plant3.ToString())
 }
