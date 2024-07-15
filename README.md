@@ -7,7 +7,7 @@
 
 # Table Content
 - `X`: Creating ....
-- `V`: Created, click to change source.
+- `OK`: Created, click to change source.
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,21 +24,35 @@
         <th>Java</th>
     </tr>
     <tr> 
-        <th rowspan="5">Creational Pattern</th>
+        <th rowspan="5">
+            Creational Pattern
+        </th>
         <td>Factory Pattern</td>
-        <td>x</td>  
+        <td>
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/golang/CreationalPattern/FactoryPattern/main.go">
+            OK
+            </a>
+        </td>  
         <td>x</td>  
         <td>x</td>  
     </tr>
     <tr>
         <td>Abstract Factory Pattern</td>
-        <td>x</td>  
+        <td>
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/golang/CreationalPattern/AbstractFactoryPattern/main.go">
+            OK
+            </a>
+        </td>  
         <td>x</td>  
         <td>x</td>  
     </tr>
     <tr>
         <td>Singleton Pattern</td>
-        <td>x</td>  
+        <td>
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/golang/CreationalPattern/SingletonPattern/main.go">
+            OK
+            </a>
+        </td>  
         <td>x</td>  
         <td>x</td>  
     </tr>
@@ -50,7 +64,11 @@
     </tr>
     <tr>
         <td>Prototype Pattern</td>
-        <td>x</td>  
+        <td>
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/golang/CreationalPattern/PrototypePattern/main.go">
+            OK
+            </a>
+        </td>  
         <td>x</td>  
         <td>x</td>  
     </tr>
