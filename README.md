@@ -8,6 +8,8 @@
 # Table Content
 - `X`: Creating ....
 - `OK`: Created, click to change source.
+-  Design Patterns [doc](https://refactoring.guru/design-patterns).
+- Handle with content `Plant and Zombies`.
 <!DOCTYPE html>
 <html lang="en">
 <head>
