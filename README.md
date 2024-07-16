@@ -90,14 +90,17 @@
         <td>
             <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/BuilderPattern/Golang/main.go">
             OK
+            </a>
         </td>  
         <td>
             <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/BuilderPattern/Python/main.py">
             OK
+            </a>
         </td>  
         <td>
             <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/BuilderPattern/Java/main.java">
             OK
+            </a>
         </td>  
     </tr>
     <tr>
@@ -108,7 +111,11 @@
             </a>
         </td>  
         <td>x</td>  
-        <td>x</td>  
+        <td>
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/PrototypePattern/Java/main.java">
+            OK
+            </a>
+        </td>  
     </tr>
     <tr>
         <th rowspan="7">Structural Pattern </th>
