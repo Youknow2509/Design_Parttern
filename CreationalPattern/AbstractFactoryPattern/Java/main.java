@@ -4,12 +4,7 @@
  * @content: Abstract Factory Pattern
  */
 
-/**
- * Enum Type for Character
- */
-enum CharacterType {
-    PLANT, ZOMBIE;
-}
+import Enum.*;
 
 /**
  * Interface for Character
@@ -26,24 +21,10 @@ interface Plant extends Character {
 }
 
 /**
- * Enum for Plant
- */
-enum PlantType {
-    SUNFLOWER, PEASHOOTER, WALLNUT;
-}
-
-/**
  * Interface for Zombie
  */
 interface Zombie extends Character {
     int getDamage();
-}
-
-/**
- * Enum for Zombie
- */
-enum ZombieType {
-    NORMAL, FLAG, BUCKET;
 }
 
 /**
