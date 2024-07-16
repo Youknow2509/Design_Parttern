@@ -4,36 +4,20 @@
     @content: Abstract Factory Pattern
 """
 
-from enum import Enum
+from Enum import *
+from Character import *
 
-class CharacterType(Enum):
-    """
-        Enum class to define the type of character
-    """
-    PLANT = "Plant"
-    ZOMBIE = "Zombie"
-
-class PlantType(Enum):
-    """
-        Enum class to define the type of plant
-    """
-    SUNFLOWER = "SunFlower"
-    PEASHOOTER = "PeaShooter"
-
-class ZombieType(Enum):
-    """
-        Enum class to define the type of zombie
-    """
-    NORMAL_ZOMBIE = "NormalZombie"
-    FLAG_ZOMBIE = "FlagZombie"
-
-# TODO cmp
+# TODO: Create abs factory pattern
 
 def main():
     """
         Main function to run the code
     """
+    ps = PeaShooter("test", 123, 123)
+    print(ps)
 
+    nz = NormalZombie()
+    print(nz)
 
 if __name__ == '__main__':
     main()
