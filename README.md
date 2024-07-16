@@ -91,9 +91,12 @@
             <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/BuilderPattern/Golang/main.go">
             OK
         </td>  
-        <td>x</td>  
         <td>
-            <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/BuilderPattern/java/main.java">
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/BuilderPattern/Python/main.py">
+            OK
+        </td>  
+        <td>
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/BuilderPattern/Java/main.java">
             OK
         </td>  
     </tr>
