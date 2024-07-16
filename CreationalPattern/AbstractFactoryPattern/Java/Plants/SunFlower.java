@@ -57,4 +57,10 @@ public class SunFlower implements Plant {
     public void setHp(int hp) {
         this.hp = hp;
     }
+
+    @Override
+    public void show() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'show'");
+    }
 }
