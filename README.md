@@ -75,7 +75,11 @@
             </a>
         </td>  
         <td>x</td>  
-        <td>x</td>  
+        <td>
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/SingletonPattern/Java/main.java">
+            OK
+            </a>
+        </td>  
     </tr>
     <tr>
         <td>Builder Pattern</td>
