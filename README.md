@@ -110,7 +110,11 @@
             OK
             </a>
         </td>  
-        <td>x</td>  
+        <td>
+            <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/PrototypePattern/Python/main.py">
+            OK
+            </a>
+        </td>  
         <td>
             <a href="https://github.com/Youknow2509/DesignParttern/blob/main/CreationalPattern/PrototypePattern/Java/main.java">
             OK
