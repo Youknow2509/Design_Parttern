@@ -10,3 +10,9 @@
 *.class
 **/*.class
 
+# Python file
+*.pyc
+**/*.pyc
+
+__pycache__
+**/__pycache__
