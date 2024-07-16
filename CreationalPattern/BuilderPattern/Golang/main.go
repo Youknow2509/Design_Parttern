@@ -1,85 +1,22 @@
 /**
-	@author: Ly Tran Vinh
-	@contact: lytranvinh.work@gmail.com
-	@content: Builder Pattern
+@author: Ly Tran Vinh
+@contact: lytranvinh.work@gmail.com
+@content: Builder Pattern
 */
 
 package main
 
 import (
-	"strconv"
 	"fmt"
+	Interface "v/Interface"
+	Plants "v/Plants"
 )
-
-/**
- * Plant interface
- */
-type Plant interface {
-	GetName() string
-	ToString() string
-}
-
-/**
- * Sunflower struct implements Plant interface
- */
-type Sunflower struct {
-	name       string
-	hp         int
-	price      int
-	sun        int
-	timeOutSun int
-	speedSun   int
-}
-
-// Constructor
-func NewSunflower(arg ...interface{}) Plant {
-	p := &Sunflower{
-		name:  "SunFlower",
-		hp:    100,
-		price: 50,
-	}
-
-	lenArg := len(arg)
-
-	if lenArg > 0 {
-		if arg[0] != nil {
-			p.name = arg[0].(string)
-		}
-		if arg[1] != nil {
-			p.hp = arg[1].(int)
-		}
-		if arg[2] != nil {
-			p.price = arg[2].(int)
-		}
-		if arg[3] != nil {
-			p.sun = arg[3].(int)
-		}
-		if arg[4] != nil {
-			p.timeOutSun = arg[4].(int)
-		}
-		if arg[5] != nil {
-			p.speedSun = arg[5].(int)
-		}
-	}
-
-	return p
-}
-
-// Deloy method GetName
-func (s *Sunflower) GetName() string {
-	return s.name
-}
-
-// Deloy method ToString
-func (s *Sunflower) ToString() string {
-	return "Name: " + s.name + ", HP: " + strconv.Itoa(s.hp) + ", Price: " + strconv.Itoa(s.price) + ", Speed: " + strconv.Itoa(s.speedSun) + ", Sun: " + strconv.Itoa(s.sun) + ", TimeOutSun: " + strconv.Itoa(s.timeOutSun)
-}
 
 /**
  * Plant Builder Interface
  */
 type PlantBuilder interface {
-	Build() Plant
+	Build() Interface.Plant
 	SetName(name string) PlantBuilder
 }
 
@@ -132,38 +69,38 @@ func (s *SunflowerBuilder) SetSpeedSun(speedSun int) *SunflowerBuilder {
 }
 
 // Deloy method Build
-func (s *SunflowerBuilder) Build() Plant {
-	p := &Sunflower{
-		name:       "SunFlower",
-		hp:         100,
-		price:      50,
-		sun:        50,
-		timeOutSun: 10,
-		speedSun:   1,
+func (s *SunflowerBuilder) Build() Interface.Plant {
+	p := &Plants.Sunflower{
+		Name:       "SunFlower",
+		Hp:         100,
+		Price:      50,
+		Sun:        50,
+		TimeOutSun: 10,
+		SpeedSun:   1,
 	}
 
 	if s.name != "" {
-		p.name = s.name
+		p.Name = s.name
 	}
 
 	if s.hp != 0 {
-		p.hp = s.hp
+		p.Hp = s.hp
 	}
 
 	if s.price != 0 {
-		p.price = s.price
+		p.Price = s.price
 	}
 
 	if s.sun != 0 {
-		p.sun = s.sun
+		p.Sun = s.sun
 	}
 
 	if s.timeOutSun != 0 {
-		p.timeOutSun = s.timeOutSun
+		p.TimeOutSun = s.timeOutSun
 	}
 
 	if s.speedSun != 0 {
-		p.speedSun = s.speedSun
+		p.SpeedSun = s.speedSun
 	}
 
 	return p
