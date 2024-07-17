@@ -143,7 +143,11 @@
     <tr>
         <td>Bridge</td>
         <td>x</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/StructuralPattern/Bridge/Python/main.py">
+            OK
+            </a>
+        </td>
         <td>
             <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/StructuralPattern/Bridge/Java/main.java">
             OK
