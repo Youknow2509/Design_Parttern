@@ -125,7 +125,11 @@
         <th rowspan="7">Structural Pattern </th>
         <td>Adapter</td>
         <td>x</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/StructuralPattern/Adapter/Python/main.py">
+            OK
+            </a>
+        </td>
         <td>
             <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/StructuralPattern/Adapter/Java/main.java">
             OK
