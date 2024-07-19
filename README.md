@@ -221,7 +221,11 @@
     <tr>
         <td>Flyweight</td>
         <td>x</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/StructuralPattern/Flyweight/Python/main.py">
+            OK
+            </a>
+        </td>
         <td>
             <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/StructuralPattern/Flyweight/Java/main.java">
             OK
