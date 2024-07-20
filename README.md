@@ -215,7 +215,11 @@
     <tr>
         <td>Proxy</td>
         <td>x</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/StructuralPattern/Proxy/Python/main.py">
+            OK
+            </a>
+        </td>
         <td>
             <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/StructuralPattern/Proxy/Java/main.java">
             OK
