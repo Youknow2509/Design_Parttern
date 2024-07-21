@@ -251,7 +251,11 @@
     <tr> 
         <th rowspan="11">Behavior Pattern</th>
         <td>Observer</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Observer/Golang/main.go">
+            OK
+            </a>
+        </td>
         <td>
             <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Observer/Python/main.py">
             OK
