@@ -287,7 +287,11 @@
     </tr>
     <tr>
         <td>Command</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Command/Golang/main.go">
+            OK
+            </a>
+        </td>
         <td>
             <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Command/Python/main.py">
             OK
