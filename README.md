@@ -306,7 +306,9 @@
     <tr>
         <td>Iterator</td>
         <td>
-            x
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Iterator/Golang/main.go">
+            OK
+            </a>
         </td>
         <td>
             <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Iterator/Python/main.py">
