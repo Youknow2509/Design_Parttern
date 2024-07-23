@@ -324,7 +324,11 @@
     <tr>
         <td>Template Method</td>
         <td>x</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Template_Method/Python/main.py">
+            OK
+            </a>
+        </td>
         <td>
             <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Template_Method/Java/main.java">
             OK
