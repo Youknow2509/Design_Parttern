@@ -342,7 +342,11 @@
     <tr>
         <td>State</td>
         <td>x</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/State/Python/main.py">
+            OK
+            </a>
+        </td>
         <td>
             <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/State/Java/main.java">
             OK
