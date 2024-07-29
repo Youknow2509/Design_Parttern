@@ -379,7 +379,11 @@
         <td>Memento</td>
         <td>x</td>
         <td>x</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Memento/Java/main.java">
+            OK
+            </a>
+        </td>
     </tr>
     <tr>
         <td>Visitor</td>
