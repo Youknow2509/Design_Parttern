@@ -360,7 +360,11 @@
     <tr>
         <td>Chain of Responsibility</td>
         <td>x</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Chain_Of_Responsibility/Python/main.py">
+            OK
+            </a>
+        </td>
         <td>
             <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Chain_Of_Responsibility/Java/main.java">
             OK
