@@ -378,7 +378,11 @@
     <tr>
         <td>Memento</td>
         <td>x</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Memento/Golang/main.go">
+            OK
+            </a> 
+        </td>
         <td>
             <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Memento/Java/main.java">
             OK
