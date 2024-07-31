@@ -414,8 +414,16 @@
     <tr>
         <td>Mediator</td>
         <td>x</td>
-        <td>x</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Mediator/Python/main.py">
+            OK
+            </a>
+        </td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Mediator/Java/main.java">
+            OK
+            </a>
+        </td>
     </tr>
 </table>
 
