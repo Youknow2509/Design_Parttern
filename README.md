@@ -395,7 +395,11 @@
     </tr>
     <tr>
         <td>Visitor</td>
-        <td>x</td>
+        <td>
+            <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Visitor/Golang/main.go">
+            OK
+            </a>
+        </td>
         <td>
             <a href="https://github.com/Youknow2509/Design_Parttern/blob/main/BehaviorPattern/Visitor/Python/main.py">
             OK
