@@ -11,7 +11,7 @@
 - Design Patterns [doc](https://refactoring.guru/design-patterns):
     - **Create Pattern** *5*: Factory Pattern, Abstract Factory Pattern, Singleton Pattern, Builder Pattern and Prototype Pattern.
     - **Structural Pattern** *7*: Adapter, Bridge, Composite, Decorator, Facade, Flyweight and Proxy.
-    - **Behavior Pattern** *11*: Observer, Strategy, Command, Iterator, Template Method, State, Chain of Responsibility, Memento, Visitor, Interpreter and Mediator.
+    - **Behavior Pattern** *10*: Observer, Strategy, Command, Iterator, Template Method, State, Chain of Responsibility, Memento, Visitor and Mediator.
 - Handle with content `Plant and Zombies`.
 <!DOCTYPE html>
 <html lang="en">
@@ -410,12 +410,6 @@
             OK
             </a>
         </td>
-    </tr>
-    <tr>
-        <td>Interpreter</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
     </tr>
     <tr>
         <td>Mediator</td>
